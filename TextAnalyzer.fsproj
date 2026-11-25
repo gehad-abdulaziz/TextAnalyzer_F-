@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>TextAnalyzer</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Models.fs" />
+    <Compile Include="FileHandling.fs" />
+    <Compile Include="Parsing.fs" />
+    <Compile Include="Analysis.fs" />
+    <Compile Include="Report.fs" />
+    <Compile Include="MainForm.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
