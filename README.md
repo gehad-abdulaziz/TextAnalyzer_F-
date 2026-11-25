@@ -2,7 +2,6 @@
 
 A desktop application written in **F#** that analyzes text and reports detailed statistics: word, sentence and paragraph counts, word frequencies, and readability measures. Text can be typed or pasted directly, or loaded from a `.txt` file.
 
-![Text Analyzer](docs/screenshot.png)
 
 ![F#](https://img.shields.io/badge/F%23-8.0-378BBA)
 ![.NET](https://img.shields.io/badge/.NET-8.0-512BD4)
